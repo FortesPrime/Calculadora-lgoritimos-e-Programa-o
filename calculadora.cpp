@@ -6,7 +6,7 @@
 	
 void menu(){
     float valor1;
-    float valor2
+    float valor2;
     int	valor3; 
     int operacao;
     float result;
