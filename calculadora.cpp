@@ -5,17 +5,15 @@
 #include <math.h>
 	
 void menu(){
-    float 	valor1;
-    float 	valor2;
-   	int	valor3; 
-	int operacao;
-	float result;
+    float valor1;
+    float valor2
+    int	valor3; 
+    int operacao;
+    float result;
 	
     printf("\n \n### CALCULADORA ###\n");
     printf("Insira o primeiro valor da operação matemática:\n");
     scanf("%f", &valor1);
-
-    
 
     printf("\n Informe a operação matemática:\n");
     printf("1 - Soma\n");
