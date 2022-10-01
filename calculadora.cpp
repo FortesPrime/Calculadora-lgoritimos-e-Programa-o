@@ -1,3 +1,5 @@
+// GitHub username: FortesPrime
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
@@ -10,12 +12,12 @@ void menu(){
 	float result;
 	
     printf("\n \n### CALCULADORA ###\n");
-    printf("Insira o primeiro valor da operaÁ„o matem·tica:\n");
+    printf("Insira o primeiro valor da opera√ß√£o matem√°tica:\n");
     scanf("%f", &valor1);
 
     
 
-    printf("\n Informe a operaÁ„o matem·tica:\n");
+    printf("\n Informe a opera√ß√£o matem√°tica:\n");
     printf("1 - Soma\n");
     printf("2 - Subtracao\n");
     printf("3 - Divisao\n");
@@ -23,51 +25,51 @@ void menu(){
 	printf("5 - Potencia\n");
 	printf("6 - Raiz quadrada\n");
 	
-    printf("Escolha a operaÁ„o:");
+    printf("Escolha a opera√ß√£o:");
     scanf("%d", &operacao);
 
     switch(operacao){
         case 1: //soma
-        	printf("\n Insira o segundo valor da operaÁ„o matem·tica:\n");
+        	printf("\n Insira o segundo valor da opera√ß√£o matem√°tica:\n");
     		scanf("%f", & valor2);
             result = valor1 + valor2;
-            printf("O resultado da soma È:%f\n" , result);
+            printf("O resultado da soma √©:%f\n" , result);
             menu();
             
 
-        case 2: //subtraÁao
-        	printf("\n Insira o segundo valor da operaÁ„o matem·tica:\n");
+        case 2: //subtra√ßao
+        	printf("\n Insira o segundo valor da opera√ß√£o matem√°tica:\n");
     		scanf("%f", & valor2);
             result = valor1 - valor2;
-            printf("O resultado da soma È:%f\n" , result);
+            printf("O resultado da soma √©:%f\n" , result);
             menu();
             
 
         case 3: //div
-        	printf("\n Insira o segundo valor da operaÁ„o matem·tica:\n");
+        	printf("\n Insira o segundo valor da opera√ß√£o matem√°tica:\n");
     		scanf("%f", & valor2);
             result = valor1 / valor2;
-            printf("O resultado da soma È:%f\n" , result);
+            printf("O resultado da soma √©:%f\n" , result);
             menu();
             
 
         case 4: //mult
-        	printf("\n Insira o segundo valor da operaÁ„o matem·tica:\n");
+        	printf("\n Insira o segundo valor da opera√ß√£o matem√°tica:\n");
     		scanf("%f", & valor2);
             result = valor1 * valor2;
-            printf("O resultado da multiplicacao È:%f\n" , result);
+            printf("O resultado da multiplicacao √©:%f\n" , result);
             menu();
             
 		case 5: //pot
 			printf("\n Insira qual a o potencia voce quer elevar:\n");
     		scanf("%d", & valor3);
             result = pow(valor1,valor3);
-            printf("O resultado da potencia È:%f\n" , result);
+            printf("O resultado da potencia √©:%f\n" , result);
             menu();
             
 		case 6: //raiz
 			result = sqrt(valor1);
-			printf("\n O resultado da raiz È:%f\n" , result);
+			printf("\n O resultado da raiz √©:%f\n" , result);
             menu();
             
         default:
